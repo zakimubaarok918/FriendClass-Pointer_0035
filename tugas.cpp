@@ -41,3 +41,7 @@ void tampilkanKeliling()(LayangLayang l, BelahKetupat b)
     double kelilingLayang = 2 * (l.s1 + l.s2);
     double kelilingBelah = 4 * b.s;
 }
+
+int main() {
+    LayangLayang ObjectLayang;
+    BelahKetupat ObjectBelah;
