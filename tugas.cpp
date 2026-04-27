@@ -32,3 +32,6 @@ private:
     double hitungLuas() {
         return 0.5 * d1 * d2;
     }
+
+    friend void tampilkanKeliling(LayangLayang l, BelahKetupat b);
+};
